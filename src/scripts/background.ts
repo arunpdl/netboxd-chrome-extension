@@ -2,7 +2,12 @@ const API_URL = "https://letterboxd.com/s/film-availability?";
 // const locale = chrome.storage && chrome.storage.sync.get;
 
 async function fetchMovieAvailabilityInfo(filmId, locale) {
-  const res = await fetch(`${API_URL}filmId=${filmId}&locale=${locale}`);
+  const res = await fetch(`${API_URL}filmId=${filmId}&locale=${locale}`, {
+    method: "get",
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+    },
+  });
   return res.json();
 }
 
