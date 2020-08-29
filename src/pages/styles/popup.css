@@ -1,0 +1,41 @@
+body {
+  min-width: 300px;
+  padding: 0;
+  margin: 0;
+  height: 250px;
+}
+
+.options {
+  text-align: center;
+  position: relative;
+}
+
+.locale-label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.note {
+  font-size: 12px;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.github {
+  position: absolute;
+  bottom: -30px;
+  right: 15px;
+  cursor: pointer;
+}

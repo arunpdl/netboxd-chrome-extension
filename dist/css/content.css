@@ -1,0 +1,43 @@
+/* show nav bar in doc iframe */
+.iframe-mode .navigation-bar-wrapper {
+  display: block;
+}
+
+.stream-info {
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  top: 25px;
+  right: 50px;
+  border: 1px solid #a40909;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: #a40909;
+  -webkit-box-shadow: 0px 0px 25px 6px #adadad;
+  box-shadow: 0px 0px 25px 6px #adadad;
+}
+
+.netflix-logo {
+  height: 50px;
+}
+
+.header {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.watch {
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.watch:hover {
+  transform: scale(1.1);
+}

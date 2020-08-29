@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Netboxd",
+    "description": "A simple browser extension to directly display Netflix link in letterboxd movie page"
+  },
+  "appDesc": {
+    "message": "A simple browser extension to directly display Netflix link in letterboxd movie page",
+    "description": "A simple browser extension to directly display Netflix link in letterboxd movie page"
+  }
+}
